@@ -1,5 +1,3 @@
-<style> img{ box-shadow: 3px 3px 3px #d5d5d5; border: 1px solid #d5d5d5;} </style>
-
 # Responsive Side Bar
 
 This attempts to be a working example of a realistic sidebar navigation panel
@@ -7,6 +5,8 @@ without relying on any specifc framework.
 
 It applies a simple header element with left sidebar and centre content region.
 Reasonably standard starting point for many dashboards and SPA applications.
+
+<style> img{ box-shadow: 3px 3px 3px #d5d5d5; border: 1px solid #d5d5d5;} </style>
 
 ![Example of the sidebar showing vertical scrollbar](/images/scollbar-example.png?raw=true)
 
@@ -25,10 +25,14 @@ work inside the fixed left sidebar. With the following modifications:
 The sidebar and it's internal scroll behaviour has been made to work in the same
 fashion as the sidebar in Azure Dev Ops.
 
+## Requirements
+
+To make the scrollbar hide when the sidebar is collapsed it does require a browser that supports Webkit (see Roadmap).
+
 ## Roadmap
 
--   Collapse the left sidebar into a nav dropdown in the header at smaller
-    screen widths.
+-   Collapse the left sidebar into a nav dropdown in the header at smaller screen widths.
+- Add alternative support for browsers that don't support Webkit.
 
 ## References/Credits
 
