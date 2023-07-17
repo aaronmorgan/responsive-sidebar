@@ -46,8 +46,6 @@
         .content {
             padding: 10px;
         }
-
-        .sidebar-content {}
     </style>
 </head>
 
@@ -59,7 +57,7 @@
                 <div class="logo-details">
                     <i class='bx bx-bot icon'></i>
                     <div class="logo_name">Sidebar</div>
-                    <i class='bx bx-menu' id="btn"></i>
+                    <i class='bx bx-menu' id="sidebar-toggle-btn"></i>
                 </div>
                 <div id="sidebar-content" class="custom-scrollbar"
                     style="overflow-y: auto; height: calc(100% - 120px);">
@@ -139,30 +137,7 @@
         <div class="content"></div>
     </section>
 
-    <script>
-        let sidebar = document.querySelector(".sidebar");
-        let closeBtn = document.querySelector("#btn");
-
-        const sidebarContent = document.querySelector("#sidebar-content");
-
-        console.log('sidebarcontent', sidebarContent)
-
-        closeBtn.addEventListener("click", () => {
-            sidebar.classList.toggle("open");
-            menuBtnChange();
-        });
-
-        function menuBtnChange() {
-            if (sidebar.classList.contains("open")) {
-                closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
-                sidebarContent.classList.toggle("custom-scrollbar-hidden");
-
-            } else {
-                closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
-                sidebarContent.classList.toggle("custom-scrollbar-hidden");
-            }
-        }
-    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

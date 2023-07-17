@@ -19,18 +19,22 @@ The [CodingNepal](https://www.codingnepalweb.com/) example has been extended to
 work inside the fixed left sidebar. With the following modifications:
 
 -   Added custom vertical scroll bar to the link region
+-   Auto resize the sidebar based on screen width and maintain the user's
+    preference during window resizing if they had manually closed the sidebar.
 
 The sidebar and it's internal scroll behaviour has been made to work in the same
 fashion as the sidebar in Azure Dev Ops.
 
 ## Requirements
 
-To make the scrollbar hide when the sidebar is collapsed it does require a browser that supports Webkit (see Roadmap).
+To make the scrollbar hide when the sidebar is collapsed it does require a
+browser that supports Webkit (see Roadmap).
 
 ## Roadmap
 
--   Collapse the left sidebar into a nav dropdown in the header at smaller screen widths.
-- Add alternative support for browsers that don't support Webkit.
+-   Collapse the left sidebar into a 'hambuger' button in the header at very
+    smaller screen widths.
+-   Add alternative support for browsers that don't support Webkit.
 
 ## References/Credits
 
