@@ -6,8 +6,6 @@ without relying on any specifc framework.
 It applies a simple header element with left sidebar and centre content region.
 Reasonably standard starting point for many dashboards and SPA applications.
 
-<style> img{ box-shadow: 3px 3px 3px #d5d5d5; border: 1px solid #d5d5d5;} </style>
-
 ![Example of the sidebar showing vertical scrollbar](/images/scollbar-example.png?raw=true)
 
 ## Overview
